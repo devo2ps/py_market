@@ -1,0 +1,9 @@
+april 12
+commenced the creation of this small django ecommerce project to go along with the flask activities
+
+Created the core app, installed it in settings, then created templates/core to toss index.html which, when combined with the relevant changes to urls.py and views.py, creates the front page of the site!  
+
+
+moved most of code from index.html to base.html which just plugs into index.html (via an extends keyword), this way code can be reused for more templates
+
+created a new page for contact info

@@ -1,0 +1,18 @@
+<!doctype html>
+
+<html>
+        <head>
+                <meta charset="utf-8"> 
+                <meta name="viewport" content="width=device-width, inital-scale=1.0"> <!-- this part ensures mobile friendliness-->
+                <script src=""https://cdn.tailwindcss.com></script>
+                <title>{% block title %}{% endblock %} | Py Market</title>
+        </head>
+
+    <body><div class="px-6 py-6">
+        <h1>Something else from base</h1>
+        <!--these allow whatever is in base to reach index.html as long as the corresponding content there has the relevant blocks-->
+        {% block content %}
+        {% endblock %}
+    </div>
+    </body>
+</html>
