@@ -14,3 +14,6 @@ added the item app, then created the model and adjusted it to be visible in the 
 
 april 14
 reviewed some notes about how the django admin panel works
+
+april 15 
+finished up getting the item and category visible pn the front page, including images for the items, started work on the item detailed view via detail.html and the relevant edits to views and urls as well as creating a new template folder and details.html for the items app
