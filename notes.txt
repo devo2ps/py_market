@@ -11,3 +11,6 @@ created a new page for contact info
 ixed the format/spacing issue, turns out the tailwind link was improperly set up in quotes, and added a footer with about, contact, privacy policy and terms of use links
 
 added the item app, then created the model and adjusted it to be visible in the admin control panel, also created the first migration and applied it for item
+
+april 14
+reviewed some notes about how the django admin panel works
