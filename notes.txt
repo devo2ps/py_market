@@ -17,3 +17,7 @@ reviewed some notes about how the django admin panel works
 
 april 15 
 finished up getting the item and category visible pn the front page, including images for the items, started work on the item detailed view via detail.html and the relevant edits to views and urls as well as creating a new template folder and details.html for the items app
+
+april 16
+made what seemed like progress in item detail, specifically detail.html and the associated urls.py plus views.py for items, but for some reason the image links broke after trying to add related items. Will revisit in morning.
+
