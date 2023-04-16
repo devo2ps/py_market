@@ -1,11 +1,11 @@
 {% extends 'core/base.html' %}
 
-{% block title %} {{ item.name }} {% endblock %}
+{% block title %}{{ item.name }}{% endblock %}
 
 {% block content %}
 <div class="grid grid-cols-5 gap-6">
-<div class="col-span-3">
-<img src= "{{ item.image.url }}" class="rounded-xl">
+    <div class="col-span-3">
+        <img src= "{{ item.image.url }}" class="rounded-xl">
 </div>
 
 
@@ -36,7 +36,7 @@
     {% for item in related_items %}
     
         <div>
-            <a href="{% url 'item:detail' item.id %}"> <!--now sends user to detail page when clicking the item -->
+            <a href="{% url 'item:detail' item.id %}">
                 <div>
                 <img src="{{ item.image.url }}" class="rounded-t-xl">
             </div>
@@ -52,4 +52,5 @@
     </div>
     </div>
 
-{% endblock %} 
+
+{% endblock %}

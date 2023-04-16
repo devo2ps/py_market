@@ -1,28 +1,32 @@
 <!doctype html>
 
 <html>
-        <head>
-                <meta charset="utf-8"> 
-                <meta name="viewport" content="width=device-width, inital-scale=1.0"> <!-- this part ensures mobile friendliness-->
-                <script src="https://cdn.tailwindcss.com"></script>
-                <title>{% block title %}{% endblock %} | Py Market</title>
-        </head>
 
-    <body>
-        <nav class="py-6 px-6 flex justify-between items-center border-b border-gray-500">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0"> <!-- this part ensures mobile friendliness-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>{% block title %}{% endblock %} | Py Market</title>
+</head>
+
+<body>
+    <nav class="py-6 px-6 flex justify-between items-center border-b border-gray-500">
         <a href="/" class="text-xl font-semibold">Py Market</a>
 
         <div class="space-x-6">
-        <a href="#" class="text-lg font-semibold hover:text-gray-500">New Item</a>
-        <a href="#" class="text-lg font-semibold hover:text-gray-500">Browse</a>
-        <a href="#" class="text-lg font-semibold hover:text-gray-500"></a>
-        <a href="#" class="px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl hover:bg-teal-700">Sign Up</a>
-        <a href="#" class="px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl hover:bg-gray-700">Login</a>
-    </div></nav>
+            <a href="#" class="text-lg font-semibold hover:text-gray-500">New Item</a>
+            <a href="#" class="text-lg font-semibold hover:text-gray-500">Browse</a>
+            <a href="#" class="text-lg font-semibold hover:text-gray-500"></a>
+            <a href="#" class="px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl hover:bg-teal-700">Sign
+                Up</a>
+            <a href="#"
+                class="px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl hover:bg-gray-700">Login</a>
+        </div>
+    </nav>
 
 
 
-        <div class="py-6 px-6">
+    <div class="py-6 px-6">
         <!--the below line ends up being included in all files that extend base.html-->
         <!--<h1>Something else from base</h1>-->
         <!--these allow whatever is in base to reach index.html as long as the corresponding content there has the relevant blocks-->
@@ -47,5 +51,6 @@
             </ul>
         </div>
     </footer>
-    </body>
+</body>
+
 </html>

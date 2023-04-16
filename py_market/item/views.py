@@ -4,11 +4,11 @@ from .models import Item
 
 # Create your views here.
 
-def detail(request,pk):
+def detail(request, pk):
     item=get_object_or_404(Item, pk=pk)
-    related_items = Item.objects.filter(category=item.category, is_sold=False).exclude(pk=pk)[0:1]
+    related_items = Item.objects.filter(category=item.category, is_sold=False).exclude(pk=pk)[0:3]
 
     return render(request, 'item/detail.html', {
-        'item':item.pk,
-        'related_items':related_items
-    })
+        'item':item, 
+        'related_items': related_items})
+   # })
