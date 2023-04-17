@@ -21,3 +21,6 @@ finished up getting the item and category visible pn the front page, including i
 april 16
 made what seemed like progress in item detail, specifically detail.html and the associated urls.py plus views.py for items, but for some reason the image links broke after trying to add related items. Will revisit in morning.
 
+The issue turned out to be the inclusion of item.pk instead of just item in the render of item detail files via views.py, with that fixed everything works as it should and now it's onto sign-ups.
+
+https://www.youtube.com/watch?v=f1R_bykXHGE
