@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.shortcuts import render, get_object_or_404, redirect
 
 from .models import Conversation
@@ -44,3 +45,8 @@ def new_conversation(request, item_pk):
         'form':form
     })
 
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> 191fb4dccac55ea51140949d11297c503490ba44

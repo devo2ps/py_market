@@ -44,7 +44,11 @@ INSTALLED_APPS = [
     'conversation',
     'item',
     'dashboard',
+<<<<<<< HEAD
 
+=======
+    'directmessages'
+>>>>>>> 191fb4dccac55ea51140949d11297c503490ba44
 ]
 
 MIDDLEWARE = [
