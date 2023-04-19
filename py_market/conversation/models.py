@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-<<<<<<< HEAD
+
 
 from item.models import Item
 from django.contrib.auth.models import User
@@ -21,5 +21,4 @@ class ConversationMessage(models.Model):
     created_at= models.DateTimeField(auto_now_add=True)
     created_by = models.ForeignKey(User, related_name='created_messages', on_delete=models.CASCADE)
 
-=======
->>>>>>> 191fb4dccac55ea51140949d11297c503490ba44
+
