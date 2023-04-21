@@ -24,3 +24,17 @@ made what seemed like progress in item detail, specifically detail.html and the 
 The issue turned out to be the inclusion of item.pk instead of just item in the render of item detail files via views.py, with that fixed everything works as it should and now it's onto sign-ups.
 
 https://www.youtube.com/watch?v=f1R_bykXHGE
+
+
+april 18th
+
+implemented basic messaging functionality via the new form and now moving onto inbox
+
+
+april 19th
+
+finished up the marketplace and began creating some SD images for entries
+
+april 20th 
+
+researched the logout functionality and how to deploy the django marketplace to a linode instance
