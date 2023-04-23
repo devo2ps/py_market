@@ -38,3 +38,7 @@ finished up the marketplace and began creating some SD images for entries
 april 20th 
 
 researched the logout functionality and how to deploy the django marketplace to a linode instance
+
+april 22nd
+
+picked up the voidvendors.shop domain name and added it to linode, also checked out pythonanywhere and got ready to host the flask app
