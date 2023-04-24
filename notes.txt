@@ -42,3 +42,7 @@ researched the logout functionality and how to deploy the django marketplace to 
 april 22nd
 
 picked up the voidvendors.shop domain name and added it to linode, also checked out pythonanywhere and got ready to host the flask app
+
+aprill 23rd
+
+read up on how the standard django logout form from boilerplate documentation works
