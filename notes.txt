@@ -46,3 +46,7 @@ picked up the voidvendors.shop domain name and added it to linode, also checked 
 aprill 23rd
 
 read up on how the standard django logout form from boilerplate documentation works
+
+april 24th
+
+continued work on nginx/wsgi setup
