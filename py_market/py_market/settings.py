@@ -25,11 +25,15 @@ SECRET_KEY = "django-insecure-6b==@j2yk91i_m@mq*o&g-un#ilaw77d!d*frj8zwi_kgn2kss
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [] #current ip for linode to 104.200.19.171
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL ='/'
 LOGOUT_REDIRECT_URL ='/'
+
+#added for deployment
+import os
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 # Application definition
 
