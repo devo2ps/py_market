@@ -4,6 +4,9 @@ from item.models import Category, Item
 
 from .forms import SignupForm
 
+from django.contrib.auth import logout
+from django.contrib import messages 
+
 # Create your views here.
 
 def index(request):
@@ -31,4 +34,8 @@ def signup(request):
     return render(request,'core/signup.html', {
         'form':form
     })
- 
+
+def logout_request(request):
+    logout(request)
+    messages.info(request, "Logged out successfully!")
+    return redirect("core:index")
