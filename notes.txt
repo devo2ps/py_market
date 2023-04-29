@@ -50,3 +50,7 @@ read up on how the standard django logout form from boilerplate documentation wo
 april 24th
 
 continued work on nginx/wsgi setup
+
+april 28th
+
+hit a few roadblocks with configuring nginx/gunicorn on the prod server and will have to keep trying to find workarounds
