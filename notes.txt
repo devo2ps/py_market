@@ -54,3 +54,13 @@ continued work on nginx/wsgi setup
 april 28th
 
 hit a few roadblocks with configuring nginx/gunicorn on the prod server and will have to keep trying to find workarounds
+
+
+
+april 29th 
+this is the last major version of the repo that doesn't include the changes necessary to make the app run on the linode server, and can be deployed locally by simply setting up a new virtual env then downloading django and pillow.
+
+may 1st
+
+read up more on setting up the ssl component of the site to ensure an https connection is possible, also added some new items to the site.
+Currently unsure about why admin panel seems unformatted?
